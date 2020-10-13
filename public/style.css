@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento|Roboto&display=swap');
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  background-color: rgb(5, 18, 133);
+}
+
+header {
+  border-radius: 1em;
+  background-color: antiquewhite;
+  margin: 1rem auto;
+  padding: 0.5em;
+  text-align: center;
+}
+header .title {
+  font-family: Fondamento, cursive;
+  font-weight: bold;
+  color: rgb(5, 18, 133);
+}
+header.subtitle {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: #111;
+}
+
+main {
+  background-color: aliceblue;
+  border-radius: 1em;
+  margin: 1rem;
+  padding: 0.5em;
+  color: rgb(3, 7, 61);
+}
+
+main a {
+  text-decoration: none;
+  color: #309;
+}
+
+main a:hover {
+  text-decoration: underline;
+  color: #369;
+}
